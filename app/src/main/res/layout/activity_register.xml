@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.katalog.kozmetik.catalog.registiration.RegisterActivity"
+    android:background="@color/backgroundGradientEnd">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtNameReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="64dp"
+                android:background="@drawable/shape_edittext"
+                android:drawableLeft="@drawable/ic_profile"
+                android:hint="Ad giriniz"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/edtSurnameReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/shape_edittext"
+                android:drawableLeft="@drawable/ic_profile"
+                android:hint="Soyad giriniz"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/edtEmailReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/shape_edittext"
+                android:drawableLeft="@drawable/ic_email"
+                android:hint="E-posta giriniz"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/edtPasswordReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/shape_edittext"
+                android:drawableLeft="@drawable/ic_password"
+                android:hint="Şifre giriniz"
+                android:inputType="textPassword"
+                android:textColorHint="@color/white" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRegisterReg"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/selector_button_register"
+            android:layout_marginRight="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/backgroundGradientEnd"
+            android:textAllCaps="false"
+            android:layout_alignParentBottom="true"
+            android:text="Kayıt ol" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Kozmetik Katalog</string>
+
+    <string name="try_again">Tekrar dene</string>
+    <string name="check_internet_connection">İnternet bağlantınızı kontrol ediniz</string>
+
+    <string name="menu_invitation_message_title">Kozmetik Katalog</string>
+    <string name="menu_invitation_message_content">Kozmetik katalogları bu uygulamayla takip edebilirsiniz</string>
+    <string name="invitation_deep_link">https://play.google.com/store/apps/details?id=com.katalog.kozmetik.catalog</string>
+
+    <string name="facebook_app_id">1625217831134689</string>
+
+    <string name="user_id_ad">ca-app-pub-1222725018079892~6994926373</string>
+    <string name="gecis_ad_id">ca-app-pub-1222725018079892/4726644236</string>
+    <string name="rewarded_ad_id">ca-app-pub-1222725018079892/4861008622</string>
+
+    <!--   <string name="user_id_ad">ca-app-pub-1222725018079892~6994926373</string>
+    <string name="gecis_ad_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="rewarded_ad_id">ca-app-pub-3940256099942544/5224354917</string>-->
+
+
+    <string name="oriflame_register">
+        "
+        Oriflame ürünlerini %30 indirimli almak ve üye fırsatlarından yararlanmak için ücretsiz üye olabilirsiniz.
+
+        Oriflame sitesi üzerinden üye olmak için tıklayın."
+
+    </string>
+
+    <string name="about_us">
+        "
+        Değerli Kozmetik Katalog Kullanıcıları,
+
+        Uygulamamız, markaların güncel fırsatlarına hızlı ve kolayca erişebilmeniz için geliştirilmiştir.
+Her geçen gün, yeni marka kataloglarıyla, fırsatlara ilk sizin erişebilmenizi sağlamak için tüm gücümüzle çalışacağız.
+
+        Öneri ve şikayetleriniz için  <a href='katalogkozmetik@gmail.com'><u><b><i>katalogkozmetik@gmail.com</i></b></u> </a> adresinden bizlere ulaşabilirsiniz.
+Güzellikle kalın…
+
+        "</string>
+
+    <string name="all_rights_reserved">Copyright © 2018 Kozmetik Katalog. Tüm hakları saklıdır.</string>
+
+</resources>

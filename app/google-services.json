@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1041088647588",
+    "firebase_url": "https://catalog-c6c0d.firebaseio.com",
+    "project_id": "catalog-c6c0d",
+    "storage_bucket": "catalog-c6c0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041088647588:android:a46d7075c3c69757",
+        "android_client_info": {
+          "package_name": "com.katalog.kozmetik.catalog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041088647588-tvfiemlikqpmgmpisduehiit0kapl6bm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.katalog.kozmetik.catalog",
+            "certificate_hash": "0b6147c24497153550118381e29977f0686c9b57"
+          }
+        },
+        {
+          "client_id": "1041088647588-7sf7ofcine1batem5st2107j259eup6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.katalog.kozmetik.catalog",
+            "certificate_hash": "542b8b9a35be852a0403aa0cb0a96f1d3e04df10"
+          }
+        },
+        {
+          "client_id": "1041088647588-jnm27r2pldck5js6t8m3ou331g227rpc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvs98F7T-kRnu9BlYYiOqwbBKXeXKaNWM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041088647588-jnm27r2pldck5js6t8m3ou331g227rpc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

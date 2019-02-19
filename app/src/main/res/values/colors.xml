@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccentDarker">#f50057</color>
+    <color name="black">#000000</color>
+    <color name="text_color">#222222</color>
+    <color name="white">#fff</color>
+    <color name="transparent">#16000000</color>
+    <color name="backgroundGradientStart">#485563</color>
+    <color name="backgroundGradientMid">#b21f1f</color>
+    <color name="backgroundGradientEnd">#29323c</color>
+    <color name="bottomToolbarColor">#0f3443</color>
+    <color name="gridColor">#aaaaaa</color>
+    <color name="cagdas">#eeeeee</color>
+    <color name="toast_warning">#E74C3C</color>
+    <color name="merve">#8ec8e8f2</color>
+    <color name="gray">#bbbbbb</color>
+
+
+</resources>

@@ -1,0 +1,117 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.katalog.kozmetik.catalog.catalog.ViewPagerFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.katalog.kozmetik.catalog.catalog.ViewPagerFixed
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottomToolbar" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/bottomToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="@drawable/shape_gradient_background_color">
+
+            <ImageView
+                android:id="@+id/ivShareButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/ic_share_48p" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="13">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="right">
+
+                    <ImageView
+                        android:id="@+id/ivLeftArrow"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:tint="@color/colorAccent"
+                        app:srcCompat="@drawable/ic_left_arrow_64dp"
+                        tools:ignore="VectorDrawableCompat" />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/tvPageNumberPager"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:singleLine="true"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5">
+
+                    <ImageView
+                        android:id="@+id/ivRightArrow"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:tint="@color/colorAccent"
+                        app:srcCompat="@drawable/ic_right_arrow_64dp"
+                        tools:ignore="VectorDrawableCompat" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center">
+
+            <View
+                android:id="@+id/viewLottieClick"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_centerInParent="true"/>
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/btnLottieLike"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+
+                android:scaleType="centerCrop" />
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
